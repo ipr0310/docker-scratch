@@ -6,7 +6,7 @@ We need to create an image, containers are based off images
 2. After the docker file is created, run `docker build .`
 3. Once the build finishes, the image will be setup for the container to be launched
 4. Run `docker run <buildId>`
-   - Run with a port assigned `docker run -p <port>:<port> <buildId>`
+   - Run with a port assigned `docker run -p <HostMachineExposedPort>:<PortExposedByDockerFile> <buildId>`
 
 ```
 On windows, you must take the SHA Build ID, in order to properly run the image`
