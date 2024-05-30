@@ -10,7 +10,7 @@ We need to create an image, containers are based off images
 
 ```
 On windows, you must take the SHA Build ID, in order to properly run the image`
-Example: docker run -p 3000:3000 c300684955045374224bf3928fb2aefd289e058ea0fce1ca0d957ba00cc7d06c
+Example: docker run -p 80:3000 c300684955045374224bf3928fb2aefd289e058ea0fce1ca0d957ba00cc7d06c
 ```
 
 ### Stop a container
