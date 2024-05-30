@@ -1,7 +1,6 @@
 # Docker from scratch
 
-We need to create an image
-Containers are based on images
+We need to create an image, containers are based off images
 
 1. To create an image, we create a dockerfile
 2. After the docker file is created, run `docker build .`
